@@ -57,7 +57,7 @@ Unlike static boilerplate generators or superficial chat interfaces, AutoDevAI a
 
 ```mermaid
 flowchart TD
-    User([Developer / User]) -->|Natural Language Prompt| ReactApp["Frontend (React 19 + TypeScript + Vite)"]
+    User["Developer / User"] -->|"Natural Language Prompt"| ReactApp["Frontend (React 19 + TypeScript + Vite)"]
 
     subgraph Frontend ["Frontend Client (Port 5173)"]
         ReactApp --> Shell["Navigation Shell & 7-Theme Token Engine"]
@@ -67,7 +67,7 @@ flowchart TD
         Shell --> Settings["Settings & Connection Latency Tester"]
     end
 
-    ReactApp -->|REST API Requests (/api/v1)| FastAPI["Backend Agent Server (FastAPI + Uvicorn)"]
+    ReactApp -->|"REST API Requests (/api/v1)"| FastAPI["Backend Agent Server (FastAPI + Uvicorn)"]
 
     subgraph Backend ["Backend Agent Engine (Port 8000)"]
         FastAPI --> AgentEngine["6-Stage Autonomous Coding Agent"]
@@ -77,8 +77,8 @@ flowchart TD
         FastAPI --> PreviewServer["Sandboxed Preview Server (/preview)"]
     end
 
-    AgentEngine -->|Google Gen AI SDK| Gemini["Google Gemini API (2.5 Flash)"]
-    StorageService -->|Atomic Writes| LocalDisk[("Local Filesystem (data/projects/)")]
+    AgentEngine -->|"Google Gen AI SDK"| Gemini["Google Gemini API (2.5 Flash)"]
+    StorageService -->|"Atomic Writes"| LocalDisk["Local Filesystem (data/projects/)"]
 ```
 
 ---
