@@ -1,0 +1,36 @@
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+*.env
+
+# Python
+backend/venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+*.tmp
+
+# Node & Frontend
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+*.tsbuildinfo
+.npm
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Project persistent data (keep structure, ignore generated user projects if desired)
+data/projects/*
+!data/projects/.gitkeep
+

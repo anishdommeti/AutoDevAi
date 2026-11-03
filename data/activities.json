@@ -1,0 +1,26 @@
+[
+  {
+    "id": "c00d1680-4740-4127-a29d-bd379ef998cb",
+    "project_id": "a8291992-6e27-4584-ab37-7e1c4c443da2",
+    "project_name": "demogallery",
+    "activity_type": "exported",
+    "description": "Exported project 'demogallery' as ZIP archive.",
+    "timestamp": "2026-11-02T18:22:50.250233+00:00"
+  },
+  {
+    "id": "44316a92-5425-4c9f-aaf1-ea01ea248c59",
+    "project_id": "a8291992-6e27-4584-ab37-7e1c4c443da2",
+    "project_name": "demogallery",
+    "activity_type": "generated",
+    "description": "Generated 4 files with 9 checks passed.",
+    "timestamp": "2026-11-02T18:22:17.912906+00:00"
+  },
+  {
+    "id": "94091fb0-72ba-4082-b384-1342ff502f08",
+    "project_id": "a8291992-6e27-4584-ab37-7e1c4c443da2",
+    "project_name": "demogallery",
+    "activity_type": "created",
+    "description": "Project 'demogallery' created.",
+    "timestamp": "2026-11-02T18:22:16.943400+00:00"
+  }
+]
